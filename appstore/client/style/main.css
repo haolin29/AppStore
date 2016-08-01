@@ -1,0 +1,153 @@
+
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #111;
+}
+
+#navbar li.dropdown {
+    display: inline-block;
+}
+
+#navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar-no-margin {
+  margin-bottom: 0px;
+}
+
+#app_detail {
+  margin-top: 30px;
+}
+
+.round-border {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+#app_detail .img-thumbnail {
+  width: 100px;
+}
+
+table td {
+  width: 150px;
+}
+
+
+.btn-download {
+  margin-top: 25px;
+}
+
+.img_list {
+    overflow-x:scroll;
+    overflow-y:hidden;
+    height:400px;
+    width:100%;
+    padding: 0 15px;
+    margin-top: 20px
+}
+
+.img_list ul {
+  list-style: none;
+  white-space:nowrap;
+}
+
+.img_list li {
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+}
+
+.img_list li img {
+  height: 400px;
+}
+
+.intro_panel {
+  margin-top: 30px;
+}
+
+.title_bar {
+  text-align: center;
+  border-bottom: 1px dashed #33bbff;
+  margin: 20px 0 20px 0;
+}
+
+.title_bar font {
+  font-weight: bold;
+  font-family: STKaiti;
+  color: #00aaff;
+  font-size: 20px;
+}
+
+.media img {
+  height: 60px;
+}
+
+.media font {
+  font-family: SimHei;
+}
+
+.download_url {
+  color: white;
+}
+
+.download_url:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.app-grid {
+  display: flex;
+  flex-wrap: wrap;
+<<<<<<< Updated upstream
+  justify-content: flex-start;
+=======
+  justify-content: space-around;
+  align-items: stretch;;
+>>>>>>> Stashed changes
+}
+
+.align-center {
+  text-align: center;
+}
+
+
+.flex-item {
+  width: 190px;
+  height: 220px;
+  margin: 5px;
+}
+
+.app-grid .thumbnail {
+  width: 150px;
+}
+
+body {
+  background-color: #f7f7f7;
+}
